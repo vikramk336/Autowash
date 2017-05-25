@@ -7,7 +7,7 @@ public class ServiceStationFacory {
 	public ServiceStation getserviceStation(Vehicle vehicleType){
 		if (vehicleType==null)
 			return null;
-		if(vehicleType.equals("4W"))
+		if(vehicleType.equals("FourWheeler"))
 		return new ServiceStation();
 		return null;
 		

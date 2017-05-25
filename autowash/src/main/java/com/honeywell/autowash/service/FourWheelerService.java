@@ -2,19 +2,17 @@ package com.honeywell.autowash.service;
 
 public class FourWheelerService implements Service{
 
-	public void regularSevice() {
-		// TODO Auto-generated method stub
-		
+	
+	
+	
+	public int getEstimationTime(ServiceType serviceType) {
+		if(serviceType.equals(ServiceType.regularService)){
+			return 3;
+		}
+		return 0;
 	}
 
-	public void wash() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	public void specialService() {
-		// TODO Auto-generated method stub
-		
-	}
+	
+	
 
 }

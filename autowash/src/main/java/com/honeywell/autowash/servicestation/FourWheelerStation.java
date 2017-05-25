@@ -1,5 +1,5 @@
 package com.honeywell.autowash.servicestation;
 
-public class FourWheelerStation extends ServiceStation {
+public class FourWheelerStation extends ServiceStation  {
 
 }

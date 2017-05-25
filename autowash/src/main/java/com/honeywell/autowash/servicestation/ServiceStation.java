@@ -4,7 +4,6 @@ import com.honeywell.autowash.service.Service;
 
 public class ServiceStation {
 	
-	private Service service;
 	
 
 }
