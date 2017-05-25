@@ -13,7 +13,7 @@ public class Engineer {
 	Engineer(String name, int id, boolean available){
 		this.enggId=id;
 		this.enggName=name;
-		this.available=true;
+		this.available=available;
 	}
 	
 	public boolean isAvailable() {

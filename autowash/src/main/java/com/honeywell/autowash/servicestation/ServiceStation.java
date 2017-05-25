@@ -1,12 +1,16 @@
 package com.honeywell.autowash.servicestation;
 
-import com.honeywell.autowash.service.Service;
+import com.honeywell.autowash.service.ServiceType;
 
 public abstract class ServiceStation {
 	
-	public abstract void performService();
+	int slots;
 	
-	public abstract String getSllots();
+	public abstract void performService(ServiceType st);
+	
+	public abstract void createSlots();
+	
+	public abstract int getSlots();
 	
 	
 
