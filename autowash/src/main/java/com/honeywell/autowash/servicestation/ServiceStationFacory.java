@@ -8,7 +8,7 @@ public class ServiceStationFacory {
 		if (vehicleType==null)
 			return null;
 		if(vehicleType.equals("FourWheeler"))
-		return new ServiceStation();
+		return new FourWheelerStation();
 		return null;
 		
 	}

@@ -1,6 +1,6 @@
 package com.honeywell.autowash.customer;
 
-public class FourWheelerVehicle implements Vehicle{
+public class FourWheelerVehicle {
 	
 	
 }
